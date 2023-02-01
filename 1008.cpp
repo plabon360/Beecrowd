@@ -1,0 +1,1 @@
+#include<iostream>#include<stdio.h>    using namespace std;    int main()    {        int empnum,worhours;        float perhoursal;        float salary;          cin>>empnum>>worhours;          cin>>perhoursal;         salary=worhours*perhoursal;        cout<<"NUMBER = "<<empnum<< endl;        printf("SALARY = U$ %.2f\n",salary);        return 0;    }

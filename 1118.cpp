@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){int y=0,a,n;double x,sum=0;for(n=1;n>0;n++){scanf("%lf", &x);if(x<0 || x>10){printf("nota invalida\n");continue;}sum=sum+x;y++;if(y%2==0) {printf("media = %.2lf\n", sum/2.0);sum=0;repeat:{printf("novo calculo (1-sim 2-nao)\n");scanf("%d",&a);}if(a==2){n=-5;}else if(a==1){continue;}else {goto repeat;}}}}
